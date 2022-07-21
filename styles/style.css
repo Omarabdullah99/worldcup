@@ -1,0 +1,462 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@500&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* header section style start */
+.header{
+    margin-top: 50px;
+    color: white;
+
+}
+.header-container{
+    width: 80%;
+    margin: auto;
+    background-color: #161616;
+    border: 2px solid black;
+    border-radius: 25px 25px;
+    
+    
+}
+
+.header-info{
+    display: flex;
+    
+}
+
+.header-content {
+    margin-left: 40px;
+    padding: 50px 0px;
+    
+}
+
+
+
+
+
+.text-animation span {
+    
+    display: block;
+    
+}
+
+
+.text1 {
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    color: white;
+    position: relative;
+    animation: text 3s 3;
+    margin-top: 50px;
+    text-shadow: 2px 2px gray;
+
+}
+.text2{
+    font-size: 40px;
+    color:#779C66;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px gray;
+}
+
+/* animation style */
+
+@keyframes text {
+    0%{
+        
+        margin-bottom: -40px;
+        text-shadow: none;
+    }
+
+    30%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+        text-shadow: none;
+    }
+
+    85%{
+        letter-spacing:4px ;
+        margin-bottom: -40px;
+        text-shadow: none;
+    }
+}
+
+.header-content p {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.header-button {
+    background-color: #DD0000;
+    padding: 16px 25px 16px 25px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+
+    
+}
+ .fa-greater-than {
+    font-size: 20px;
+    margin-left: 40px;
+ }
+
+.header-image img {
+    width: 400px;
+   
+    height: 100vh;
+}
+
+/* header section style end */
+
+
+
+/* fixtures section style start */
+.fixtures{
+    margin: 150px 0px;
+    overflow: hidden;
+
+}
+.fixtures-container {
+    width: 80%;
+    margin: auto;
+}
+.fixtures-item {
+    display: flex;
+    gap: 50px;
+    
+    
+}
+
+.fixtures-itme-one{
+   width:312px;
+   height: 312px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px 10px;
+
+
+   
+}
+
+/* button css style */
+
+.butons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.butons .item-button-1{
+    background-color: white;
+    color: black;
+    padding: 15px 5px 15px 5px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 15px 15px;
+    cursor: pointer;
+}
+
+.butons .item-button-2 {
+
+    background-color: white;
+    color: black;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 15px 15px;
+    margin: 30px 0px;
+
+}
+
+.item-button-3 {
+    color: white;
+    background-color: #DD0000;
+    padding: 15px 60px 15px 60px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 15px 15px;
+}
+
+/* button css style end */
+
+
+
+
+
+
+/* grid style */
+.fixtures-two-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px 30px;
+   
+
+}
+
+.items{
+
+    box-shadow: 2px 2px 9px 0px #888888;
+    border: 1px solid #888888;
+
+}
+
+
+.items img {
+    width:200px
+}
+
+.item-content{
+    margin-left: 10px;
+}
+.item-content p {
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.items-button {
+    padding: 5px 15px;
+    background-color: transparent;
+    border-radius: 5px 5px;
+    margin: 10px 0px;
+}
+
+/* font-awsome style */
+.fa-message{
+    margin-left: 20px;
+}
+
+
+.fixture-button button{
+    text-align: center;
+    padding: 5px 40px;
+    background-color: red;
+    color: white;
+    display: none;
+}
+
+
+/* fixtures section style end */
+
+/* footer section style start */
+
+.footer{
+    background-color: #161616;
+    text-align: center;
+    color: white;
+    padding: 150px 0px;
+}
+
+.footer h3 {
+    margin-bottom: 50px;
+    font-size: 3rem;
+   
+}
+
+.footer-item {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    
+}
+
+.footer-item p {
+    font-size: 14px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.line {
+    width: 80%;
+    margin: auto;
+    color: grey;
+    
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+}
+.footer-icon a {
+    color: white;
+    padding: 0px 30px;
+    font-size: 30px;
+}
+
+
+
+/* responsive style */
+
+/* 992 px screen responsive start */
+
+@media screen and (max-width:992px) {
+
+
+    /* heading responsive style start */
+    .heading-paragraph {
+        width: 100px;
+        height: 50px;
+        border: 3px solid red;
+        overflow: hidden;
+    }
+    .short-text {
+        
+        overflow: hidden;
+        text-overflow: ellipsis;
+        
+    }
+
+     /* heading responsive style end */
+
+
+     /* fixtures section resposive start */
+
+     .fixtures{
+
+        margin: 30px 0px;
+
+     }
+
+     .fixtures-item{
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+     }
+
+
+     .fixtures-itme-one{
+        background: white;
+        border: none;
+        border-radius: none;
+     
+     
+        
+     }
+
+     .butons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+     }
+
+
+     .butons button {
+        margin: 0px 40px;
+     }
+     .butons .item-button-1{
+        padding: 20px 20px;
+     }
+
+
+     .fixtures-two-items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+     }
+
+     .fixture-button button{
+        display: flex;
+        padding: 20px 55px;
+        border-radius: 20px 20px;
+       border: 2px solid red;
+     }
+
+
+     /* fixtures section resposive end  */
+
+     /* footer section reponsive start */
+
+     .footer-item{
+        grid-template-columns: repeat(3,1fr);
+
+     }
+
+
+     /* footer section reponsive  end*/
+
+
+
+
+ 
+    
+}
+
+
+/* 992 px screen responsive end */
+
+
+/* 688 px screen responsive end */
+
+@media screen and (max-width:688px) {
+
+
+    /* heading responsive start */
+
+    .header-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-content{
+        text-align: center;
+    }
+
+    .heading-paragraph{
+       
+        justify-content: center;
+    }
+
+
+    /* heading responsive end */
+
+
+    /* fixture responsive start */
+
+    .butons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fixtures-two-items{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .fixture-button button{
+        display: none;
+    }
+
+
+    /* fixture responsive end */
+
+    /* footer responsive start */
+
+    .footer-item{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-icon{
+        flex-direction: column;
+        gap: 50px 0px;
+    }
+
+
+
+
+
+    
+}
+
+
